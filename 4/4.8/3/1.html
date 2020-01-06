@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.8-3</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div id="container">
+		<router-link to="/list/1">第一页</router-link>
+		<router-link to="/list/2">第二页</router-link>
+		<router-link :to="{ name: 'list', params: {page: 3} }">第三页</router-link>
+		<router-link to="/list/1/detail">详情</router-link>
+		<router-link to="/named">命名</router-link>
+		<router-view></router-view>
+		<router-view name="detail"></router-view>
+	</div>
+	<script src="../../../assets/vue/vue.js"></script>
+	<script src="../../../assets/vue/vue-router.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

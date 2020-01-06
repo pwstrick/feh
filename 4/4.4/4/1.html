@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.4-4</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div id="container">
+		<button v-for="tab in tabs" @click="current = tab">{{ tab }}</button>
+		<keep-alive>
+			<component :is="current"></component>
+		</keep-alive>
+		<!-- <keep-alive>
+			<tab1 v-if="current == 'tab1'"></tab1>
+			<tab2 v-else></tab2>
+		<keep-alive> -->
+	</div>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

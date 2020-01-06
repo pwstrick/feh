@@ -1,0 +1,4 @@
+{
+  "index.js": "index.bundle.js",
+  "list.js": "list.bundle.js"
+}

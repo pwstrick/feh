@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.7-1</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div id="container">
+		<page type="2">标题</page>
+		<btn></btn>
+		<container>
+			<template v-slot:default>
+				<h1>标题</h1>
+			</template>
+		</container>
+	</div>
+	<script type="text/x-template" id="template">
+	  <h1 v-if="type == 1">
+		<slot></slot>
+	  </h1>
+	  <h2 v-else-if="type == 2">
+		<slot></slot>
+	  </h2>
+	  <h3 v-else-if="type == 3">
+		<slot></slot>
+	  </h3>
+	</script>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

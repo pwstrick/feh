@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.2-3</title>
+	<meta charset="utf-8" />
+	<style>
+		div {
+			margin: 10px;
+			padding: 20px;
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<section id="container">
+	  <button v-on:click="dot1">首次点击</button>
+	  <button v-on:click="dot2(28, $event, 'university')">再次点击</button>
+	  <button @click="dot1(),dot3()">两次点击</button>
+	  
+	  <div @click="print('div')">
+		<section @click.stop.self="print('section')">
+			<button @click="print('button')">点击1</button>
+		</section>
+	  </div>
+	  <div @click="print('div')">
+		<section @click.self.stop="print('section')">
+			<button @click="print('button')">点击2</button>
+		</section>
+	  </div>
+	  <input placeholder="arrow-down" @keyup.arrow-down="enter" />
+	  <input placeholder="40" @keyup.40="enter" />
+	  <input placeholder="f12" @keyup.f12="enter" />
+	  <input placeholder="ctrl" @keyup.arrow-down.ctrl="enter" />
+	  <input placeholder="no exact" @keyup.ctrl="enter" />
+	  <input placeholder="exact" @keyup.ctrl.exact="enter" />
+	  <input placeholder="mouse" @click.middle="enter" />
+	</section>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

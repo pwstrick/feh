@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.6-3</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div id="container">
+		<btn>{{obj.txt}}</btn>
+		<btn2>
+			<template v-slot:default="slots">
+				{{slots.txt}}
+			</template>
+		</btn2>
+		<btn2 v-slot="slots">
+			{{slots.txt}}
+			<!-- <template v-slot:custom></template> -->
+		</btn2>
+	</div>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.2-4</title>
+	<meta charset="utf-8" />
+	<style>
+		div {
+			margin: 10px;
+			padding: 20px;
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<section id="container">
+		<input v-auto-enter/>
+		<div v-if="display" v-hooks:click.once.self="name">
+			<p>{{age}}</p>
+		</div>
+		<p v-calculate:[arg]="{left:10, right:20}"></p>
+	</section>
+	<input v-func/>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

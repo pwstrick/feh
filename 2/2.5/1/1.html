@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2.5-1</title>
+	<meta charset="utf-8" />
+	<style>
+		div{
+			margin: 20px;
+		}
+		button {
+			margin-right: 10px;
+		}
+	</style>
+</head>
+<body>
+	<button onclick="handle()">原生按钮</button>
+	<div id="container"></div>
+	<script>
+		function handle(e) {
+			console.log("原生事件");
+		}
+	</script>
+	<script src="../../../assets/react/babel.js"></script>
+	<script src="../../../assets/react/react.js"></script>
+	<script src="../../../assets/react/react-dom.js"></script>
+    <script src="default.js" type="text/babel"></script>
+</body>
+</html>

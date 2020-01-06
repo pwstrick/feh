@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.3-question.1</title>
+	<meta charset="utf-8" />
+	<style>
+		div {
+			margin: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<input type="text" v-model.lazy="name" />
+		<p>{{name}}</p>
+		<input type="number" v-model.number="age" />
+		<p>{{age}}</p>
+		<input type="text" v-model.trim="school" />
+		<p>{{school}}</p>
+	</div>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

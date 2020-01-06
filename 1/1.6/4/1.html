@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>1.6-4</title>
+	<style>
+		div {
+			width: 200px;
+			height: 200px;
+			border: 1px solid #000;
+		}
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+    <script src="default.js"></script>
+	<script>
+		//DOM节点
+		var container = document.getElementById("container");
+		var node = new WeakMap();
+		node.set(container, { digit: 0 });
+		container.addEventListener("click", function() {
+			var current = node.get(this);
+			current.digit++;
+			node.set(this, current);
+			console.log(node.get(this));
+		  },
+		  false
+		);
+	</script>
+</body>
+</html>

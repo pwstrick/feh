@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.2-2</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<ul id="container">
+	  <li v-for="item in array">
+		{{item}}
+	  </li>
+	  <li v-for="(item, index) in array">
+		{{index}} - {{item}}
+	  </li>
+	  <li v-for="item of array">
+		{{item}}
+	  </li>
+	  <li v-for="(item, index) of array">
+		{{index}} - {{item}}
+	  </li>
+	  
+	  <li v-for="(value, key, index) in obj">
+		{{index}} - {{key}} - {{value}}
+	  </li>
+	  
+	  <li v-for="digit in 3">
+		{{digit}}
+	  </li>
+	  
+	  <li v-for="item in peoples" v-bind:key="item.id">
+		{{item}}
+	  </li>
+	  
+	  <!--<li v-for="item in peoples" v-bind:key="item.id">
+		{{item}}
+	  </li>-->
+	  
+	  <input placeholder="enter name" key="name" v-if="display"/>
+	  <input placeholder="enter age" key="age" v-else/>
+	  <button @click="toggle">切换</button>
+	</ul>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

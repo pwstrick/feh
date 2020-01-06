@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.3-1</title>
+	<meta charset="utf-8" />
+	<style>
+		.warning {
+			color: red;
+		}
+		.cur {
+			margin: 10px;
+		}
+		.size {
+			font-size: 24px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<!-- <p class="warning cur">strick</p> -->
+		<p v-bind:class="classList">strick</p>
+		<p :class="classList" class="size">strick</p>
+		<p :class="[warning, cur]">strick</p>
+		<p :class="[classList, cur]">strick</p>
+	</div>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

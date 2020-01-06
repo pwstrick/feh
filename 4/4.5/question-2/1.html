@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.5-question.2</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div id="container">
+		<btn @dot="handler" :digit="digit"  @update:digit="val => digit = val"></btn>
+		<btn @dot="handler" :digit.sync="digit"></btn>
+	</div>
+	
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.2-1</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div id="container">
+		<div v-if="exist">
+			<p>strick</p>
+		</div>
+		<template v-if="exist">
+			<p>strick</p>
+			<p>freedom</p>
+		</template>
+		<p v-if="exist">strick</p>
+		<!-- <p>justify</p> -->
+		<p v-else>freedom</p>
+		
+		<p v-if="digit==1">strick</p>
+		<p v-else-if="digit==2">justify</p>
+		<p v-else>freedom</p>
+		
+		<!-- <p style="display: none;">strick</p> -->
+		<p v-show="display">strick</p>
+		<p v-show="!display">freedom</p>
+		<!-- <p v-else>freedom</p> -->
+		
+		<p v-if="false">strick</p>
+		<p v-show="false">freedom</p>
+	</div>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

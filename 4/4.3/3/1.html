@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.3-3</title>
+	<meta charset="utf-8" />
+	<style>
+		div {
+			margin: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<input type="text" v-model="name" value="init"/>
+		<textarea v-model="name">init</textarea>
+		<p>{{name}}</p>
+		
+		<div>
+			<label><input type="checkbox" v-model="checked"/>单值</label>
+			<p>{{checked}}</p>
+			<label><input type="checkbox" value="strick" v-model="names"/>strick</label>
+			<label><input type="checkbox" value="freedom" v-model="names"/>freedom</label>
+			<p>{{names}}</p>
+		</div>
+		
+		<div>
+			<label><input type="radio" value="red" v-model="color">red</label>
+			<label><input type="radio" value="black" v-model="color">black</label>
+			<p>{{color}}</p>
+		</div>
+		
+		<div>
+			<select v-model="selected">
+				<option value="1">strick</option>
+				<option value="2">freedom</option>
+			</select>
+			<p>{{selected}}</p>
+			
+			<select v-model="selecteds" multiple>
+				<option value="1">strick</option>
+				<option value="2">freedom</option>
+			</select>
+			<p>{{selecteds}}</p>
+		</div>
+		<!-- <input type="text" :value="name" value="freedom" /> -->
+		<div>
+			<input type="checkbox" v-model="toggle" :true-value="yes" :false-value="no" />
+			<p>{{toggle}}</p>
+			
+			<label><input type="radio" v-model="color2" :value="{digit: 1}" />red</label>
+			<label><input type="radio" v-model="color2" :value="{digit: 2}" />black</label>
+			<p>{{color2}}</p>
+			
+			<select v-model="selected2">
+			  <option :value="{digit: 1}">strick</option>
+			  <option :value="{digit: 2}">freedom</option>
+			</select>
+			<p>{{selected2}}</p>
+		</div>
+	</div>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

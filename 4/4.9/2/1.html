@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.9-2</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div id="container">
+		<p>{{digit}}</p>
+		<button @click="add">State增加</button>
+		<button @click="minus">State减少</button>
+	</div>
+	<div id="container2">
+		<p>{{caculate}}</p>
+		<!-- <p>{{alias}}</p> -->
+		<button @click="add">Getter计算</button>
+	</div>
+	<div id="container3">
+		<p>{{digit}}</p>
+		<button @click="interval">Mutation增加</button>
+	</div>
+	<div id="container4">
+		<p>{{digit}}</p>
+		<button @click="interval">Action增加</button>
+	</div>
+	<script src="../../../assets/vue/vue.js"></script>
+	<script src="../../../assets/vue/vuex.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

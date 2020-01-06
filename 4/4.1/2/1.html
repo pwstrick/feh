@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>4.1-2</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<div id="container">
+		<!-- <p>strick</p> -->
+		<p>{{text}}</p>
+		<!-- <p>text</p> -->
+		<p v-once>{{text}}</p>
+		
+		<!-- <p>&lt;span&gt;content&lt;/span&gt;</p> -->
+		<p>{{html}}</p>
+		<!-- <p><span>content</span></p> -->
+		<p v-html="html"></p>
+		
+		<!-- <p id="row"></p> -->
+		<p v-bind:id="id"></p>
+		
+		<!-- <p>success</p> -->
+		<p>{{result ? "success" : "failure"}}</p>
+		
+		<button v-on:click="dot">提交1</button>
+		<!-- <button v-on:[123456789]="dot">提交2</button>
+		<button v-on:[type + ""]="dot">提交3</button>
+		<button v-on:[eventType]="dot">提交4</button> -->
+	</div>
+	<script src="../../../assets/vue/vue.js"></script>
+    <script src="default.js"></script>
+</body>
+</html>

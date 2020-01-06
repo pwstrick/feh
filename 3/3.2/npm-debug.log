@@ -1,0 +1,400 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\pingwen\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--userconfig=C:\\Users\\pingwen\\.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--cache=C:\\Users\\pingwen\\.cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--node-gyp=C:\\Users\\pingwen\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\node-gyp\\bin\\node-gyp.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   '@babel/runtime-corejs2' ]
+2 info using npm@2.14.15
+3 info using node@v10.16.0
+4 verbose install initial load of D:\htdocs\FE\demo2\11\11.2\package.json
+5 warn package.json babel@1.0.0 No repository field.
+6 warn package.json babel@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\ansi-styles\package.json
+8 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\anymatch\package.json
+9 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\arr-diff\package.json
+10 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\arr-flatten\package.json
+11 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\arr-union\package.json
+12 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\array-unique\package.json
+13 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\assign-symbols\package.json
+14 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\async-each\package.json
+15 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\atob\package.json
+16 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\balanced-match\package.json
+17 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\base\package.json
+18 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\binary-extensions\package.json
+19 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\brace-expansion\package.json
+20 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\braces\package.json
+21 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\browserslist\package.json
+22 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\cache-base\package.json
+23 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\caniuse-lite\package.json
+24 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\chalk\package.json
+25 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\chokidar\package.json
+26 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\class-utils\package.json
+27 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\collection-visit\package.json
+28 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\color-convert\package.json
+29 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\color-name\package.json
+30 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\commander\package.json
+31 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\component-emitter\package.json
+32 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\concat-map\package.json
+33 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\convert-source-map\package.json
+34 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\copy-descriptor\package.json
+35 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\core-js\package.json
+36 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\core-js-compat\package.json
+37 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\core-js-pure\package.json
+38 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\core-util-is\package.json
+39 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\debug\package.json
+40 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\decode-uri-component\package.json
+41 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\define-property\package.json
+42 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\electron-to-chromium\package.json
+43 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\escape-string-regexp\package.json
+44 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\esutils\package.json
+45 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\expand-brackets\package.json
+46 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\extend-shallow\package.json
+47 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\extglob\package.json
+48 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\fill-range\package.json
+49 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\for-in\package.json
+50 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\fragment-cache\package.json
+51 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\fs-readdir-recursive\package.json
+52 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\fs.realpath\package.json
+53 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\get-value\package.json
+54 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\glob\package.json
+55 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\glob-parent\package.json
+56 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\globals\package.json
+57 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\graceful-fs\package.json
+58 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\has-flag\package.json
+59 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\has-value\package.json
+60 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\has-values\package.json
+61 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\inflight\package.json
+62 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\inherits\package.json
+63 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\invariant\package.json
+64 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-accessor-descriptor\package.json
+65 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-binary-path\package.json
+66 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-buffer\package.json
+67 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-data-descriptor\package.json
+68 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-descriptor\package.json
+69 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-extendable\package.json
+70 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-extglob\package.json
+71 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-glob\package.json
+72 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-number\package.json
+73 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-plain-obj\package.json
+74 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-plain-object\package.json
+75 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\is-windows\package.json
+76 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\isarray\package.json
+77 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\isobject\package.json
+78 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\js-levenshtein\package.json
+79 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\js-tokens\package.json
+80 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\jsesc\package.json
+81 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\json5\package.json
+82 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\kind-of\package.json
+83 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\lodash\package.json
+84 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\loose-envify\package.json
+85 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\map-cache\package.json
+86 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\map-visit\package.json
+87 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\micromatch\package.json
+88 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\minimatch\package.json
+89 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\minimist\package.json
+90 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\mixin-deep\package.json
+91 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\mkdirp\package.json
+92 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\ms\package.json
+93 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\nanomatch\package.json
+94 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\node-releases\package.json
+95 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\normalize-path\package.json
+96 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\npx\package.json
+97 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\object-copy\package.json
+98 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\object-visit\package.json
+99 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\object.pick\package.json
+100 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\once\package.json
+101 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\output-file-sync\package.json
+102 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\pascalcase\package.json
+103 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\path-dirname\package.json
+104 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\path-is-absolute\package.json
+105 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\path-parse\package.json
+106 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\posix-character-classes\package.json
+107 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\private\package.json
+108 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\process-nextick-args\package.json
+109 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\readable-stream\package.json
+110 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\readdirp\package.json
+111 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\regenerate\package.json
+112 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\regenerate-unicode-properties\package.json
+113 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\regenerator-runtime\package.json
+114 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\regenerator-transform\package.json
+115 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\regex-not\package.json
+116 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\regexp-tree\package.json
+117 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\regexpu-core\package.json
+118 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\regjsgen\package.json
+119 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\regjsparser\package.json
+120 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\remove-trailing-separator\package.json
+121 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\repeat-element\package.json
+122 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\repeat-string\package.json
+123 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\resolve\package.json
+124 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\resolve-url\package.json
+125 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\ret\package.json
+126 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\safe-buffer\package.json
+127 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\safe-regex\package.json
+128 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\semver\package.json
+129 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\set-value\package.json
+130 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\slash\package.json
+131 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\snapdragon\package.json
+132 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\snapdragon-node\package.json
+133 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\snapdragon-util\package.json
+134 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\source-map\package.json
+135 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\source-map-resolve\package.json
+136 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\source-map-url\package.json
+137 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\split-string\package.json
+138 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\static-extend\package.json
+139 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\string_decoder\package.json
+140 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\supports-color\package.json
+141 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\to-fast-properties\package.json
+142 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\to-object-path\package.json
+143 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\to-regex\package.json
+144 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\to-regex-range\package.json
+145 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\trim-right\package.json
+146 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\unicode-canonical-property-names-ecmascript\package.json
+147 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\unicode-match-property-ecmascript\package.json
+148 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\unicode-match-property-value-ecmascript\package.json
+149 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\unicode-property-aliases-ecmascript\package.json
+150 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\union-value\package.json
+151 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\unset-value\package.json
+152 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\upath\package.json
+153 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\urix\package.json
+154 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\use\package.json
+155 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\util-deprecate\package.json
+156 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\wrappy\package.json
+157 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\cli\package.json
+158 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\code-frame\package.json
+159 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\core\package.json
+160 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\generator\package.json
+161 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-annotate-as-pure\package.json
+162 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-builder-binary-assignment-operator-visitor\package.json
+163 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-call-delegate\package.json
+164 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-define-map\package.json
+165 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-explode-assignable-expression\package.json
+166 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-function-name\package.json
+167 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-get-function-arity\package.json
+168 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-hoist-variables\package.json
+169 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-member-expression-to-functions\package.json
+170 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-module-imports\package.json
+171 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-module-transforms\package.json
+172 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-optimise-call-expression\package.json
+173 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-plugin-utils\package.json
+174 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-regex\package.json
+175 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-remap-async-to-generator\package.json
+176 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-replace-supers\package.json
+177 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-simple-access\package.json
+178 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-split-export-declaration\package.json
+179 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helper-wrap-function\package.json
+180 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\helpers\package.json
+181 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\highlight\package.json
+182 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\parser\package.json
+183 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-proposal-async-generator-functions\package.json
+184 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-proposal-json-strings\package.json
+185 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-proposal-object-rest-spread\package.json
+186 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-proposal-optional-catch-binding\package.json
+187 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-proposal-unicode-property-regex\package.json
+188 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-syntax-async-generators\package.json
+189 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-syntax-json-strings\package.json
+190 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-syntax-object-rest-spread\package.json
+191 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-syntax-optional-catch-binding\package.json
+192 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-arrow-functions\package.json
+193 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-async-to-generator\package.json
+194 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-block-scoped-functions\package.json
+195 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-block-scoping\package.json
+196 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-classes\package.json
+197 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-computed-properties\package.json
+198 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-destructuring\package.json
+199 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-dotall-regex\package.json
+200 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-duplicate-keys\package.json
+201 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-exponentiation-operator\package.json
+202 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-for-of\package.json
+203 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-function-name\package.json
+204 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-literals\package.json
+205 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-member-expression-literals\package.json
+206 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-modules-amd\package.json
+207 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-modules-commonjs\package.json
+208 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-modules-systemjs\package.json
+209 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-modules-umd\package.json
+210 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-named-capturing-groups-regex\package.json
+211 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-new-target\package.json
+212 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-object-super\package.json
+213 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-parameters\package.json
+214 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-property-literals\package.json
+215 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-regenerator\package.json
+216 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-reserved-words\package.json
+217 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-runtime\package.json
+218 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-shorthand-properties\package.json
+219 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-spread\package.json
+220 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-sticky-regex\package.json
+221 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-template-literals\package.json
+222 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-typeof-symbol\package.json
+223 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\plugin-transform-unicode-regex\package.json
+224 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\polyfill\package.json
+225 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\preset-env\package.json
+226 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\runtime\package.json
+227 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\template\package.json
+228 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\traverse\package.json
+229 verbose installManyTop reading scoped package data from D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\types\package.json
+230 info package.json copy-descriptor@0.1.1 No README data
+231 info package.json get-value@2.0.6 No README data
+232 info package.json object-copy@0.1.0 No README data
+233 info package.json static-extend@0.1.2 No README data
+234 info package.json esutils@2.0.2 No license field.
+235 info package.json string_decoder@1.1.1 string_decoder is also the name of a node core module.
+236 verbose readDependencies loading dependencies from D:\htdocs\FE\demo2\11\11.2\package.json
+237 silly cache add args [ '@babel/runtime-corejs2', null ]
+238 verbose cache add spec @babel/runtime-corejs2
+239 silly cache add parsed spec Result {
+239 silly cache add   raw: '@babel/runtime-corejs2',
+239 silly cache add   scope: '@babel',
+239 silly cache add   name: '@babel/runtime-corejs2',
+239 silly cache add   rawSpec: '',
+239 silly cache add   spec: 'latest',
+239 silly cache add   type: 'tag' }
+240 silly addNamed @babel/runtime-corejs2@latest
+241 verbose addNamed "latest" is being treated as a dist-tag for @babel/runtime-corejs2
+242 info addNameTag [ '@babel/runtime-corejs2', 'latest' ]
+243 silly mapToRegistry name @babel/runtime-corejs2
+244 silly mapToRegistry scope (from package name) @babel
+245 verbose mapToRegistry no registry URL found in name for scope @babel
+246 silly mapToRegistry using default registry
+247 silly mapToRegistry registry https://registry.npm.taobao.org/
+248 silly mapToRegistry uri https://registry.npm.taobao.org/@babel%2fruntime-corejs2
+249 verbose addNameTag registry:https://registry.npm.taobao.org/@babel%2fruntime-corejs2 not in flight; fetching
+250 verbose request uri https://registry.npm.taobao.org/@babel%2fruntime-corejs2
+251 verbose request no auth needed
+252 info attempt registry request try #1 at 4:29:27 PM
+253 verbose request id 3824cf8ee0212edf
+254 http request GET https://registry.npm.taobao.org/@babel%2fruntime-corejs2
+255 http 200 https://registry.npm.taobao.org/@babel%2fruntime-corejs2
+256 verbose headers { server: 'Tengine',
+256 verbose headers   'content-type': 'application/json; charset=utf-8',
+256 verbose headers   'content-length': '4559',
+256 verbose headers   connection: 'keep-alive',
+256 verbose headers   date: 'Tue, 04 Jun 2019 08:29:27 GMT',
+256 verbose headers   'x-current-requests': '1',
+256 verbose headers   vary: 'accept, accept-encoding',
+256 verbose headers   etag: 'W/"e3cd9054347417690f98c465c1318fb4"',
+256 verbose headers   'cache-control': 'max-age=0, s-maxage=10, must-revalidate',
+256 verbose headers   'x-readtime': '16',
+256 verbose headers   via:
+256 verbose headers    'cn544.l1, cache7.cn544, l2cm12.l2, cache11.l2cm12, npmtaobao20, cache11.l2cm12[55,304-0,H], cache9.l2cm12[57,0], cache7.cn544[88,200-0,H], cache1.cn544[90,0]',
+256 verbose headers   'x-alicdn-da-ups-status': 'endInner,0,304',
+256 verbose headers   'content-encoding': 'gzip',
+256 verbose headers   'ali-swift-global-savetime': '1558702508',
+256 verbose headers   age: '0',
+256 verbose headers   'x-cache': 'HIT TCP_REFRESH_HIT dirn:5:157079947',
+256 verbose headers   'x-swift-savetime': 'Tue, 04 Jun 2019 08:29:27 GMT',
+256 verbose headers   'x-swift-cachetime': '10',
+256 verbose headers   'timing-allow-origin': '*',
+256 verbose headers   eagleid: '7ce8aa4115596369674958329e' }
+257 silly get cb [ 200,
+257 silly get   { server: 'Tengine',
+257 silly get     'content-type': 'application/json; charset=utf-8',
+257 silly get     'content-length': '4559',
+257 silly get     connection: 'keep-alive',
+257 silly get     date: 'Tue, 04 Jun 2019 08:29:27 GMT',
+257 silly get     'x-current-requests': '1',
+257 silly get     vary: 'accept, accept-encoding',
+257 silly get     etag: 'W/"e3cd9054347417690f98c465c1318fb4"',
+257 silly get     'cache-control': 'max-age=0, s-maxage=10, must-revalidate',
+257 silly get     'x-readtime': '16',
+257 silly get     via:
+257 silly get      'cn544.l1, cache7.cn544, l2cm12.l2, cache11.l2cm12, npmtaobao20, cache11.l2cm12[55,304-0,H], cache9.l2cm12[57,0], cache7.cn544[88,200-0,H], cache1.cn544[90,0]',
+257 silly get     'x-alicdn-da-ups-status': 'endInner,0,304',
+257 silly get     'content-encoding': 'gzip',
+257 silly get     'ali-swift-global-savetime': '1558702508',
+257 silly get     age: '0',
+257 silly get     'x-cache': 'HIT TCP_REFRESH_HIT dirn:5:157079947',
+257 silly get     'x-swift-savetime': 'Tue, 04 Jun 2019 08:29:27 GMT',
+257 silly get     'x-swift-cachetime': '10',
+257 silly get     'timing-allow-origin': '*',
+257 silly get     eagleid: '7ce8aa4115596369674958329e' } ]
+258 verbose get saving @babel/runtime-corejs2 to C:\Users\pingwen\.cnpm\registry.npm.taobao.org\_40babel_252fruntime-corejs2\.cache.json
+259 silly addNameTag next cb for @babel/runtime-corejs2 with tag latest
+260 silly addNamed @babel/runtime-corejs2@7.4.5
+261 verbose addNamed "7.4.5" is a plain semver version for @babel/runtime-corejs2
+262 silly mapToRegistry name @babel/runtime-corejs2
+263 silly mapToRegistry scope (from package name) @babel
+264 verbose mapToRegistry no registry URL found in name for scope @babel
+265 silly mapToRegistry using default registry
+266 silly mapToRegistry registry https://registry.npm.taobao.org/
+267 silly mapToRegistry uri https://registry.npm.taobao.org/@babel%2fruntime-corejs2
+268 verbose addRemoteTarball https://registry.npm.taobao.org/@babel/runtime-corejs2/download/@babel/runtime-corejs2-7.4.5.tgz not in flight; adding
+269 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/@babel/runtime-corejs2/download/@babel/runtime-corejs2-7.4.5.tgz',
+269 verbose addRemoteTarball   '3d892f0560df21bafb384dd7727e33853e95d3c9' ]
+270 info retry fetch attempt 1 at 4:29:27 PM
+271 info attempt registry request try #1 at 4:29:27 PM
+272 http fetch GET https://registry.npm.taobao.org/@babel/runtime-corejs2/download/@babel/runtime-corejs2-7.4.5.tgz
+273 http fetch 200 https://registry.npm.taobao.org/@babel/runtime-corejs2/download/@babel/runtime-corejs2-7.4.5.tgz
+274 silly fetchAndShaCheck shasum 3d892f0560df21bafb384dd7727e33853e95d3c9
+275 verbose addTmpTarball C:\Users\pingwen\AppData\Local\Temp\npm-252-4d575a5b\registry.npm.taobao.org\_40babel\runtime-corejs2\download\_40babel\runtime-corejs2-7.4.5.tgz not in flight; adding
+276 verbose addTmpTarball already have metadata; skipping unpack for @babel/runtime-corejs2@7.4.5
+277 silly cache afterAdd @babel/runtime-corejs2@7.4.5
+278 verbose afterAdd C:\Users\pingwen\.cnpm\@babel\runtime-corejs2\7.4.5\package\package.json not in flight; writing
+279 verbose afterAdd C:\Users\pingwen\.cnpm\@babel\runtime-corejs2\7.4.5\package\package.json written
+280 silly install resolved [ { name: '@babel/runtime-corejs2',
+280 silly install resolved     version: '7.4.5',
+280 silly install resolved     description:
+280 silly install resolved      'babel\'s modular runtime helpers with core-js@2 polyfilling',
+280 silly install resolved     license: 'MIT',
+280 silly install resolved     publishConfig: { access: 'public' },
+280 silly install resolved     repository:
+280 silly install resolved      { type: 'git',
+280 silly install resolved        url:
+280 silly install resolved         'https://github.com/babel/babel/tree/master/packages/babel-runtime-corejs2' },
+280 silly install resolved     author: { name: 'Sebastian McKenzie', email: 'sebmck@gmail.com' },
+280 silly install resolved     dependencies: { 'core-js': '^2.6.5', 'regenerator-runtime': '^0.13.2' },
+280 silly install resolved     devDependencies: { '@babel/helpers': '^7.4.4' },
+280 silly install resolved     gitHead: '33ab4f166117e2380de3955a0842985f578b01b8',
+280 silly install resolved     licenseText:
+280 silly install resolved      'MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n"Software"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+280 silly install resolved     _id: '@babel/runtime-corejs2@7.4.5',
+280 silly install resolved     dist:
+280 silly install resolved      { shasum: '3d892f0560df21bafb384dd7727e33853e95d3c9',
+280 silly install resolved        size: 26700,
+280 silly install resolved        noattachment: false,
+280 silly install resolved        tarball:
+280 silly install resolved         'https://registry.npm.taobao.org/@babel/runtime-corejs2/download/@babel/runtime-corejs2-7.4.5.tgz' },
+280 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+280 silly install resolved     _npmUser:
+280 silly install resolved      { name: 'nicolo-ribaudo', email: 'nicolo.ribaudo@gmail.com' },
+280 silly install resolved     directories: {},
+280 silly install resolved     _npmOperationalInternal:
+280 silly install resolved      { host: 's3://npm-registry-packages',
+280 silly install resolved        tmp: 'tmp/runtime-corejs2_7.4.5_1558460744806_0.6236218878510018' },
+280 silly install resolved     _hasShrinkwrap: false,
+280 silly install resolved     publish_time: 1558460744993,
+280 silly install resolved     _cnpm_publish_time: 1558460744993,
+280 silly install resolved     _shasum: '3d892f0560df21bafb384dd7727e33853e95d3c9',
+280 silly install resolved     _resolved:
+280 silly install resolved      'https://registry.npm.taobao.org/@babel/runtime-corejs2/download/@babel/runtime-corejs2-7.4.5.tgz',
+280 silly install resolved     _from: '@babel/runtime-corejs2@latest' } ]
+281 info install @babel/runtime-corejs2@7.4.5 into D:\htdocs\FE\demo2\11\11.2
+282 info installOne @babel/runtime-corejs2@7.4.5
+283 verbose installOne of @babel/runtime-corejs2 to D:\htdocs\FE\demo2\11\11.2 not in flight; installing
+284 verbose lock using C:\Users\pingwen\.cnpm\_locks\babel-runtime-corejs2-7eaa0fd9542e60c2.lock for D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\runtime-corejs2
+285 silly install write writing @babel/runtime-corejs2 7.4.5 to D:\htdocs\FE\demo2\11\11.2\node_modules\@babel\runtime-corejs2
+286 verbose stack Error: Cannot find module 'internal/util/types'
+286 verbose stack     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:636:15)
+286 verbose stack     at Function.Module._load (internal/modules/cjs/loader.js:562:25)
+286 verbose stack     at Module.require (internal/modules/cjs/loader.js:690:17)
+286 verbose stack     at require (internal/modules/cjs/helpers.js:25:18)
+286 verbose stack     at evalmachine.<anonymous>:44:31
+286 verbose stack     at Object.<anonymous> (C:\Users\pingwen\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\cmd-shim\node_modules\graceful-fs\fs.js:11:1)
+286 verbose stack     at Module._compile (internal/modules/cjs/loader.js:776:30)
+286 verbose stack     at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+286 verbose stack     at Module.load (internal/modules/cjs/loader.js:653:32)
+286 verbose stack     at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+287 verbose cwd D:\htdocs\FE\demo2\11\11.2
+288 error Windows_NT 6.1.7601
+289 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\pingwen\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js" "--userconfig=C:\\Users\\pingwen\\.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--cache=C:\\Users\\pingwen\\.cnpm" "--registry=https://registry.npm.taobao.org" "--node-gyp=C:\\Users\\pingwen\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\node-gyp\\bin\\node-gyp.js" "install" "--save" "@babel/runtime-corejs2"
+290 error node v10.16.0
+291 error npm  v2.14.15
+292 error code MODULE_NOT_FOUND
+293 error Cannot find module 'internal/util/types'
+294 error If you need help, you may report this error at:
+294 error     <https://github.com/npm/npm/issues>
+295 verbose exit [ 1, true ]
